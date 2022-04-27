@@ -1,10 +1,3 @@
-//
-//  Persistence.swift
-//  ToDo App
-//
-//  Created by Aleksa Miskovic on 26.4.22..
-//
-
 import CoreData
 
 struct PersistenceController {

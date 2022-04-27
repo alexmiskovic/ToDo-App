@@ -1,11 +1,5 @@
-//
-//  ToDo_AppApp.swift
-//  ToDo App
-//
-//  Created by Aleksa Miskovic on 26.4.22..
-//
-
 import SwiftUI
+import CoreData
 
 @main
 struct ToDo_AppApp: App {

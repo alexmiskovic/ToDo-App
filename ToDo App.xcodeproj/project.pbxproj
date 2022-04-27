@@ -13,6 +13,7 @@
 		7396232228189B0200A483D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7396232128189B0200A483D6 /* Preview Assets.xcassets */; };
 		7396232428189B0200A483D6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7396232328189B0200A483D6 /* Persistence.swift */; };
 		7396232728189B0200A483D6 /* ToDo_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7396232528189B0200A483D6 /* ToDo_App.xcdatamodeld */; };
+		7396232F28189B8900A483D6 /* AddToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7396232E28189B8900A483D6 /* AddToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		7396232128189B0200A483D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7396232328189B0200A483D6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		7396232628189B0200A483D6 /* ToDo_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDo_App.xcdatamodel; sourceTree = "<group>"; };
+		7396232E28189B8900A483D6 /* AddToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				7396231A28189B0200A483D6 /* ToDo_AppApp.swift */,
-				7396231C28189B0200A483D6 /* ContentView.swift */,
+				7396232D28189B3F00A483D6 /* View */,
 				7396231E28189B0200A483D6 /* Assets.xcassets */,
 				7396232328189B0200A483D6 /* Persistence.swift */,
 				7396232528189B0200A483D6 /* ToDo_App.xcdatamodeld */,
@@ -71,6 +73,15 @@
 				7396232128189B0200A483D6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7396232D28189B3F00A483D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7396231C28189B0200A483D6 /* ContentView.swift */,
+				7396232E28189B8900A483D6 /* AddToDo.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 				7396231D28189B0200A483D6 /* ContentView.swift in Sources */,
 				7396231B28189B0200A483D6 /* ToDo_AppApp.swift in Sources */,
 				7396232728189B0200A483D6 /* ToDo_App.xcdatamodeld in Sources */,
+				7396232F28189B8900A483D6 /* AddToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
